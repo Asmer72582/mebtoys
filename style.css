@@ -583,6 +583,8 @@ p {
 
 .videoplayer {
     /* width: 700px; */
+    background-color: #000;
+    height: 100%;
     /* margin: auto; */
     padding: 40px;
     margin: auto;
