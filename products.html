@@ -76,8 +76,9 @@
         display: flex;
         flex-direction: column;
         background-color: white;
-        padding: 20px 100px;
+        /* padding: 20px 100px; */
         line-height: 1px;
+        text-align: center;
         border-radius: 15px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         margin-bottom: 30px;
@@ -88,6 +89,17 @@
         font-weight: 700;
         color: black;
 
+    }
+
+    @media screen and (max-width: 1200px) {
+        #products .header .text {
+            padding: 20px 50px;
+            width: 90%;
+        }
+
+        #products .header .text h1 {
+            font-size: 35px;
+        }
     }
 </style>
 
@@ -170,7 +182,8 @@
                 it
                 with you.</h1>
 
-            <p>© 2024 MEBTOYS. Designed & Developed by <a href="https://linktr.ee/asmerchougle">Asmer Chougle</a></p>
+            <p>© 2024 MEBTOYS. <br> Designed & Developed by <a href="https://linktr.ee/asmerchougle">Asmer Chougle</a>
+            </p>
 
         </div>
     </footer>

@@ -496,6 +496,10 @@ h4 {
         width: 70%;
     }
 
+    #about .cards .card .card-content {
+        font-size: 16px;
+    }
+
     #about {
         padding: 10px 20px;
 
@@ -851,7 +855,7 @@ h2 {
 
     border: 1px solid black;
     /* width: 50%; */
-    object-fit: fit;
+    object-fit: contain;
     overflow: hidden;
     /* overflow: hidden; */
 }
@@ -859,6 +863,6 @@ h2 {
 
 .carousel-item img {
 
-    object-fit: fit;
+    object-fit: cover;
     height: 100vh;
 }
