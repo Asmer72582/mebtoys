@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <style>
+        .fancybox__slide.has-caption {
+            flex-direction: row;
+        }
+
+        .fancybox__caption {
+            max-width: 250px;
+            padding: 1rem 3rem 1rem 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <a data-fancybox="gallery" data-src="https://lipsum.app/id/2/1024x768"
+            data-caption="Ut semper, justo eget vehicula vestibulum, enim enim suscipit lectus, et sagittis nibh risus vel metus.">
+            <img src="https://lipsum.app/id/2/200x150" />
+        </a>
+
+        <a data-fancybox="gallery" data-src="https://lipsum.app/id/3/1024x768"
+            data-caption="Vivamus massa justo, sagittis non viverra sed, sodales non nisi.">
+            <img src="https://lipsum.app/id/3/200x150" />
+        </a>
+
+        <a data-fancybox="gallery" data-src="https://lipsum.app/id/4/1024x768"
+            data-caption="Aenean consequat auctor posuere. Integer sed magna volutpat, efficitur nisl ut, dignissim neque.">
+            <img src="https://lipsum.app/id/4/200x150" />
+        </a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+        Fancybox.bind('[data-fancybox]', {
+            compact: false
+        });    
+    </script>
+</body>
+
+</html>
