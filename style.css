@@ -154,6 +154,10 @@ body {
         z-index: 3;
     }
 
+    .carousel-item center {
+        width: 100%;
+    }
+
     .logo {
         left: 10px;
     }
@@ -592,6 +596,10 @@ p {
         min-width: 100%;
     }
 
+    .carousel-item center {
+        min-width: 90%;
+    }
+
     #gallery .header {
         padding: 20px 0px;
     }
@@ -761,12 +769,19 @@ header nav ul li a {
     header {
         padding: 0 30px;
     }
+
+
 }
 
 @media only screen and (max-width: 700px) {
     .hamburger {
         display: block;
     }
+
+    .carousel-item center .img {
+        display: none;
+    }
+
 
     header nav {
         position: absolute;
@@ -792,7 +807,53 @@ header nav ul li a {
     }
 }
 
+#testimonals .carousel-item {
+    height: 300px;
+    margin-bottom: 50px;
+
+}
+
+.carousel-item center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: auto;
+    background-color: white;
+    color: #000;
+    border-radius: 5px;
+    height: 100%;
+    padding: 0px 20px;
+}
+
+.carousel-item center .text p,
+h2 {
+    text-align: left;
+}
+
+.carousel-item center .text h2 {
+    color: black;
+}
+
+.carousel-item center .img {
+    height: 100%;
+    width: 50%;
+}
+
+.carousel-item center .img img {
+    height: 100%;
+
+    border: 1px solid black;
+    /* width: 50%; */
+    object-fit: fit;
+    overflow: hidden;
+    /* overflow: hidden; */
+}
+
+
 .carousel-item img {
+
     object-fit: fit;
     height: 100vh;
 }
