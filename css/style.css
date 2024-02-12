@@ -712,9 +712,9 @@ a:focus {
 }
 
 #social_icons {
-  width: 100px;
+  /* width: 100px; */
   display: flex;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   align-items: center;
 }
 
