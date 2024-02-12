@@ -55,6 +55,7 @@
 }
 
 @media (max-width: 480px) {
+
   .slider_section .detail-box h1 {
     font-size: 2rem;
   }
@@ -68,4 +69,7 @@
   .container {
     max-width: 1170px;
   }
+
+
+
 }

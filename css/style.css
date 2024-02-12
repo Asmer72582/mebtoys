@@ -446,7 +446,7 @@ a:focus {
   text-align: center;
   margin-top: 45px;
   background-color: #203247;
-  padding: 20px;
+  /* padding: 20px; */
   height: 550px;
   border-radius: 15px;
   color: #ffffff;
