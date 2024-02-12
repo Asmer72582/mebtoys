@@ -7,7 +7,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #0c0c0c;
+  color: #222221;
   background-color: #ffffff;
   overflow-x: hidden;
 
@@ -120,12 +120,12 @@ a:focus {
 
 .sub_page .hero_area {
   min-height: auto;
-  background-color: #3fc1c9;
+  background-color: #EA1936;
 }
 
 .header_section {
   width: 100%;
-  background-color: #3fc1c9;
+  background-color: #EA1936;
   position: sticky;
   top: 0;
   z-index: 10;
@@ -180,7 +180,7 @@ a:focus {
 }
 
 .custom_nav-container .nav_search-btn:hover {
-  color: #203247;
+  color: #222221;
 }
 
 .custom_nav-container .navbar-toggler {
@@ -297,7 +297,7 @@ a:focus {
 
 .slider_section .detail-box {
 
-  color: #3fc1c9;
+  color: #EA1936;
 }
 
 .slider_section .detail-box h1 {
@@ -330,7 +330,7 @@ a:focus {
 .slider_section .detail-box .btn-box .btn1 {
   display: inline-block;
   padding: 10px 15px;
-  background-color: #203247;
+  background-color: #222221;
   color: #ffffff;
   border-radius: 0;
   -webkit-transition: all 0.3s;
@@ -423,7 +423,7 @@ a:focus {
 .slider_section .carousel-indicators li.active {
   width: 20px;
   height: 20px;
-  background-color: #203247;
+  background-color: #222221;
 }
 
 .feature_section {
@@ -445,7 +445,7 @@ a:focus {
   align-items: center;
   text-align: center;
   margin-top: 45px;
-  background-color: #203247;
+  background-color: #222221;
   /* padding: 20px; */
   height: 550px;
   border-radius: 15px;
@@ -473,7 +473,7 @@ a:focus {
 .feature_section .box .img-box svg {
   width: 45px;
   height: auto;
-  fill: #203247;
+  fill: #222221;
 }
 
 .feature_section .box .detail-box h5 {
@@ -502,7 +502,7 @@ a:focus {
 .about_section .detail-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #203247;
+  background-color: #222221;
   color: #ffffff;
   border-radius: 0px;
   -webkit-transition: all 0.3s;
@@ -516,7 +516,7 @@ a:focus {
 }
 
 .shop_section {
-  background-color: #3fc1c9;
+  background-color: #EA1936;
 }
 
 .shop_section .heading_container {
@@ -565,7 +565,7 @@ a:focus {
 }
 
 .shop_section .box .detail-box h6 {
-  color: #203247;
+  color: #222221;
 }
 
 .shop_section .btn-box {
@@ -581,7 +581,7 @@ a:focus {
 .shop_section .btn-box a {
   display: inline-block;
   padding: 10px 40px;
-  background-color: #203247;
+  background-color: #222221;
   color: #ffffff;
   border-radius: 5px;
   -webkit-transition: all 0.3s;
@@ -633,7 +633,7 @@ a:focus {
 }
 
 .client_section .box .detail-box i {
-  color: #3fc1c9;
+  color: #EA1936;
   margin-bottom: 10px;
 }
 
@@ -687,7 +687,7 @@ a:focus {
 
 .client_section .owl-carousel .owl-nav .owl-prev:hover,
 .client_section .owl-carousel .owl-nav .owl-next:hover {
-  color: #3fc1c9;
+  color: #EA1936;
 }
 
 /* client section end */
@@ -717,7 +717,7 @@ a:focus {
 }
 
 #social_icons a i {
-  color: #3fc1c9;
+  color: #EA1936;
   margin: 0px 10px;
   font-size: 40px;
 }
@@ -776,7 +776,7 @@ a:focus {
 .contact_section button {
   display: inline-block;
   padding: 12px 45px;
-  background-color: #3fc1c9;
+  background-color: #EA1936;
   color: #ffffff;
   border-radius: 0;
   -webkit-transition: all 0.3s;
@@ -801,7 +801,7 @@ a:focus {
 }
 
 .info_section {
-  background-color: #203247;
+  background-color: #222221;
   color: #ffffff;
   padding: 45px 0 15px 0;
 }
@@ -835,7 +835,7 @@ a:focus {
 }
 
 .info_section .info_contact .contact_link_box a:hover {
-  color: #203247;
+  color: #222221;
 }
 
 .info_section .info_social {
@@ -863,7 +863,7 @@ a:focus {
 }
 
 .info_section .info_social a:hover {
-  color: #3fc1c9;
+  color: #EA1936;
 }
 
 .info_section .info_links {
@@ -890,7 +890,7 @@ a:focus {
 }
 
 .info_section .info_links a:hover {
-  color: #3fc1c9;
+  color: #EA1936;
 }
 
 .info_section form input {
@@ -924,7 +924,7 @@ a:focus {
   text-align: center;
   display: inline-block;
   padding: 10px 55px;
-  background-color: #3fc1c9;
+  background-color: #EA1936;
   color: #ffffff;
   border-radius: 0;
   -webkit-transition: all 0.3s;
@@ -941,7 +941,7 @@ a:focus {
 .footer_section {
 
   position: relative;
-  background-color: #203247;
+  background-color: #222221;
   text-align: center;
 }
 
