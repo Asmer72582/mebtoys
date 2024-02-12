@@ -56,7 +56,7 @@
       <nav class="navbar navbar-expand-lg custom_nav-container ">
         <a class="navbar-brand" href="index.html">
           <span>
-            MEBTOY
+            <img src="./images/logo.webp" height="60px" alt="">
           </span>
         </a>
 
@@ -102,7 +102,7 @@
 
     <!-- end header section -->
     <!-- slider section -->
-    <section class="slider_section ">
+    <section class="slider_section " data-aos="zoom-in">
       <div id="customCarousel1" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -223,7 +223,7 @@
       <div class="container ">
         <div class="row">
           <div class="col-md-6 ">
-            <div class="box p-5">
+            <div class="box p-5" data-aos="fade-up">
 
               <div class="detail-box">
                 <h5>
@@ -246,7 +246,7 @@
             </div>
           </div>
           <div class="col-md-6 ">
-            <div class="box p-5">
+            <div class="box p-5" data-aos="fade-up">
 
               <div class="detail-box">
                 <h5>
@@ -268,7 +268,7 @@
             </div>
           </div>
           <div class="col-md-6 ">
-            <div class="box p-5">
+            <div class="box p-5" data-aos="fade-up">
 
               <div class="detail-box">
                 <h5>
@@ -290,7 +290,7 @@
 
 
           <div class="col-md-6 ">
-            <div class="box p-5">
+            <div class="box p-5" data-aos="fade-up">
 
               <div class="detail-box">
                 <h5>
@@ -327,14 +327,14 @@
       <div class="row">
         <div class="col-md-6">
           <div class="img-box">
-            <video autoplay controls loop id="myVideo">
+            <video autoplay controls loop id="myVideo" data-aos="fade-right">
               <source src="./images/toyvideo.mp4" type="video/MP4">
               Your browser does not support the video tag.
             </video>
           </div>
         </div>
         <div class="col-md-5">
-          <div class="detail-box">
+          <div class="detail-box" data-aos="fade-left">
             <div class="heading_container ">
               <h2>
                 About <span>Us</span>
@@ -372,7 +372,7 @@
       </div>
       <div class="row">
         <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box">
+          <div class="box" data-aos="zoom-in">
             <a href="">
               <div class="img-box">
                 <img src="./images/products/414vIx+l5vL 2.jpg" alt="">
@@ -387,7 +387,7 @@
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box">
+          <div class="box" data-aos="zoom-in">
             <a href="">
               <div class="img-box">
                 <img src="./images/products/ABCD 1.jpg" alt="">
@@ -402,7 +402,7 @@
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box">
+          <div class="box" data-aos="zoom-in">
             <a href="">
               <div class="img-box">
                 <img src="./images/products/HAMMER BALL.jpg" alt="">
@@ -417,7 +417,7 @@
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box">
+          <div class="box" data-aos="zoom-in">
             <a href="">
               <div class="img-box">
                 <img src="./images/products/Untitled (1).jpg" alt="">
@@ -432,7 +432,7 @@
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box">
+          <div class="box" data-aos="zoom-in">
             <a href="">
               <div class="img-box">
                 <img src="./images/products/WI.jpg" alt="">
@@ -447,7 +447,7 @@
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box">
+          <div class="box" data-aos="zoom-in">
             <a href="">
               <div class="img-box">
                 <img src="./images/products/WT.jpg" alt="">
@@ -462,7 +462,7 @@
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box">
+          <div class="box" data-aos="zoom-in">
             <a href="">
               <div class="img-box">
                 <img src="./images/products/xylophone 1.jpeg" alt="">
@@ -763,6 +763,8 @@
   </section>
   <!-- footer section -->
 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
   <!-- jQery -->
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.js"></script>
@@ -786,6 +788,7 @@
 
 </body>
 <script>
+  AOS.init();
   Fancybox.bind('[data-fancybox="single"]', {
     groupAttr: false,
   });
