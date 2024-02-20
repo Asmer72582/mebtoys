@@ -49,8 +49,8 @@ function myMap() {
 // document.getElementById("openModal")
 window.addEventListener("load", () => {
     setTimeout(info, 1000);
-    setTimeout(benifits, 30000);
-    setTimeout(wooden, 60000);
+    setTimeout(benifits, 50000);
+    setTimeout(wooden, 100000);
 
 })
 
