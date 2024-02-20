@@ -331,7 +331,7 @@ a:focus {
 .slider_section .detail-box {
 
 
-  color: lightcoral;
+  color: #1E3456;
 }
 
 .slider_section .detail-box h1 {
@@ -486,7 +486,7 @@ a:focus {
   text-align: justify;
 
 
-  /* background-color: lightcoral; */
+  /* background-color: #1E3456; */
   /* padding: 20px; */
   height: 90%;
   width: 90%;
@@ -721,7 +721,7 @@ a:focus {
 }
 
 .client_section .box .detail-box i {
-  color: lightcoral;
+  color: #1E3456;
   margin-bottom: 10px;
 }
 
@@ -780,7 +780,7 @@ a:focus {
 
 .client_section .owl-carousel .owl-nav .owl-prev:hover,
 .client_section .owl-carousel .owl-nav .owl-next:hover {
-  color: lightcoral;
+  color: #1E3456;
 }
 
 /* client section end */
@@ -810,7 +810,7 @@ a:focus {
 }
 
 #social_icons a i {
-  color: lightcoral;
+  color: #1E3456;
   margin: 0px 10px;
   font-size: 40px;
 }
@@ -869,7 +869,7 @@ a:focus {
 .contact_section button {
   display: inline-block;
   padding: 12px 45px;
-  background-color: lightcoral;
+  background-color: #1E3456;
   color: #ffffff;
   border-radius: 0;
   -webkit-transition: all 0.3s;
@@ -956,7 +956,7 @@ a:focus {
 }
 
 .info_section .info_social a:hover {
-  color: lightcoral;
+  color: #1E3456;
 }
 
 .info_section .info_links {
@@ -983,7 +983,7 @@ a:focus {
 }
 
 .info_section .info_links a:hover {
-  color: lightcoral;
+  color: #1E3456;
 }
 
 .info_section form input {
@@ -1017,7 +1017,7 @@ a:focus {
   text-align: center;
   display: inline-block;
   padding: 10px 55px;
-  background-color: lightcoral;
+  background-color: #1E3456;
   color: #ffffff;
   border-radius: 0;
   -webkit-transition: all 0.3s;
