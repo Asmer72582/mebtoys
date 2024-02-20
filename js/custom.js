@@ -17,7 +17,10 @@ $(".client_owl-carousel").owlCarousel({
     navText: [],
     autoplay: true,
     autoplayHoverPause: true,
-
+    navText: [
+        '<i class="fa fa-angle-left" aria-hidden="true"></i>',
+        '<i class="fa fa-angle-right" aria-hidden="true"></i>'
+    ],
     responsive: {
         0: {
             items: 1
@@ -41,4 +44,27 @@ function myMap() {
         zoom: 18,
     };
     var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+}
+
+// document.getElementById("openModal")
+window.addEventListener("load", () => {
+    setTimeout(info, 1000);
+    setTimeout(benifits, 30000);
+    setTimeout(wooden, 60000);
+
+})
+
+document.getElementById('more').addEventListener("click", () => {
+    info()
+})
+function info() {
+    document.getElementById("openModal").click()
+}
+function benifits() {
+    document.getElementById("openModal-benifits").click()
+    document.click()
+
+}
+function wooden() {
+    document.getElementById("openModal-wooden").click()
 }

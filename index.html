@@ -50,6 +50,9 @@
 </head>
 
 <body>
+  <span id="more">
+    ?
+  </span>
 
   <header class="header_section">
     <div class="container">
@@ -57,7 +60,7 @@
         <a class="navbar-brand" href="index.html">
           <span>
             <!-- <img src="./images/logo.webp" height="60px" alt=""> -->
-            Mebtoys
+            MebToys
           </span>
         </a>
 
@@ -353,8 +356,16 @@
               to name a few. We have a crack team of highly experienced designers and over 27 years of design experience
               under our belt.
             </p>
-            <a href="contact.html">
-              Contact
+            <a href="" id="openModal" data-toggle="modal" data-target="#exampleModalCenter">
+              Our Story
+            </a>
+            <a href="" id="openModal-benifits" style="display: none;" data-toggle="modal"
+              data-target="#exampleModalCenter2">
+              Benefits
+            </a>
+            <a href="" id="openModal-wooden" style="display: none;" data-toggle="modal"
+              data-target="#exampleModalCenter3">
+              Wooden
             </a>
           </div>
         </div>
@@ -364,128 +375,312 @@
 
   <!-- end about section -->
 
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: #1d3557; color: #fff;">
+          <h5 class="modal-title" id="exampleModalLongTitle">Our Story</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true" style="color: #fff;">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body p-4">
+          <img src="./images/logo.webp" style="height: 100%; width: 100%;" alt="">
+          <br>
+          It all started with a spark of inspiration and a love for play. Fueled by our passion for
+          sustainability and creativity, we set out to redefine the toy industry one wooden
+          masterpiece at a time. From concept to creation, every toy we make is a labor of love,
+          designed to inspire, educate, and ignite the imagination.
+        </div>
+        <div class="modal-footer" style="display: flex; justify-content: space-evenly;">
+          <button class="btn " style="background-color: #1d3557; color: #fff;" data-toggle="modal"
+            data-target="#exampleModalCenter2">Benefits of Playing</button>
+          <button class="btn " style="background-color: #1d3557; color: #fff;" data-toggle="modal"
+            data-target="#exampleModalCenter3">why Wooden toys?</button>
+          <!-- <button class="btn " style="background-color: #1d3557; color: #fff;">Connect Us</button> -->
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModalCenter2" tabindex="-2" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: #1d3557; color: #fff;">
+          <h5 class="modal-title" id="exampleModalLongTitle">Benefits of Play</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true" style="color: #fff;">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body p-4">
+          <img
+            src="https://media.licdn.com/dms/image/D4D12AQG5cMHK2fBvCw/article-cover_image-shrink_600_2000/0/1684374991873?e=2147483647&v=beta&t=SzMkfxytSAHCEOk88hD1ZiGaXex4JgZxik8rIKYCqao"
+            style="height: 100%; width: 100%;" alt="">
+          <br><br>
+          Who says learning has to be boring? At MEB TOYS, we believe that play is the
+          ultimate teacher. Our toys are designed to spark curiosity, boost confidence, and
+          unleash the full potential of every child. Whether they're stacking blocks, solving
+          puzzles, or going on imaginary adventures, they're learning valuable skills that'll last
+          a lifetime.
+          <hr>
+          <h5>Join the Fun</h5>
+          <hr>
+          <p>Ready to embark on a wild and wonderful journey? Dive into our online store and
+            discover a world of endless fun and excitement! With fast shipping, easy returns, and
+            a team of friendly toy enthusiasts standing by to assist you, shopping with us is as
+            easy as pie.</p>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModalCenter3" tabindex="-3" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: #1d3557; color: #fff;">
+          <h5 class="modal-title" id="exampleModalLongTitle">Why Wooden Toys?</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true" style="color: #fff;">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body p-4">
+          <img src="https://osmouk.com/wp-content/uploads/2021/02/WWF-Toys-1-1024x483.png"
+            style="height: 100%; width: 100%;" alt="">
+          <br><br>
+          Why settle for boring plastic when you can have the beauty and durability of wood?
+          Our wooden toys are not only planet-friendly but also toxin-free, ensuring safe and
+          sustainable play for kids of all ages. Plus, they're built to last, so you can pass them
+          down to future generations – talk about a win-win!
+        </div>
+        <div class="modal-footer">
+          <a href="shop.html"><button class="btn" style="background-color: #1d3557; color: #fff;">Get
+              products</button></a>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
   <!-- shop section -->
 
-  <section class="shop_section layout_padding">
-    <div class="container">
+  <section class="shop_section slider_section layout_padding">
+    <div class="container-fluid">
       <div class="heading_container heading_center">
         <h2>
           Products
         </h2>
       </div>
-      <div class="row">
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box" data-aos="zoom-in">
-            <a href="">
-              <div class="img-box">
-                <img src="./images/products/414vIx+l5vL 2.jpg" alt="">
-              </div>
-              <div class="detail-box">
-                <a href="">
-                  Toy for kids
-                </a>
 
+      <div id="customCarousel2" class="carousel slide " data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-6 ">
+                  <div class="detail-box">
+                    <h1>
+                      X & O Game
+                    </h1>
+                    <p>
+                      Dive into the world of strategy and critical thinking with this interactive game. It's not just
+                      fun; it's a
+                      brain-boosting adventure for your little ones! 🌟🤖
+                      🎨<br> <b>
+                        Colorful Creativity:
+                      </b> The vibrant wooden pieces are not just Xs and Os; they're the building
+                      blocks of imagination. Watch as your kids create patterns, shapes, and stories while having a
+                      blast!
+                    </p>
+
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="img-boxs">
+                    <img src="images/products/414vIx+l5vL 2.jpg" alt="">
+                  </div>
+                </div>
               </div>
-            </a>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-6 ">
+                  <div class="detail-box">
+                    <h1>
+                      Wooden xylophone
+                    </h1>
+                    <p>
+                      Immerse your little ones in the enchanting world of music with our Wooden Xylophone!
+                      <br>Handcrafted with love and precision Non-toxic, eco-friendly materials 🔴 👧👦
+                      Watch as they explore rhythm, develop fine motor skills, and unleash their inner
+                      maestro! 🎹✨
+
+                    </p>
+
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="img-boxs">
+                    <img src="images/products/xylophone 1.jpeg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-6 ">
+                  <div class="detail-box">
+                    <h1>
+                      WOODEN JIGSAW PUZZLE </h1>
+                    <p>
+                      We bring the traditional closer to the modern by amalgamating open mindedness with cultural
+                      diversity in our toys and products.
+                      Our toys aid in skill development during the growing years. Our products are safe and bring a
+                      sense of warmth and belonging to you in your surroundings.
+                      Each and every product is made with genuine love and dedication. We feel accomplished when our
+                      products bring joy to you and your loved ones.
+                    </p>
+
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="img-boxs">
+                    <img src="images/products/WI.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-6 ">
+                  <div class="detail-box">
+                    <h1>
+                      TRACING BOARDS </h1>
+                    <p>
+                      Embark on a Letter-Learning Adventure!
+                      🚀 Unlock the ABCs with Fun and Learning! 🌟 Each board is a gateway to
+                      alphabet exploration and early writing skills! ✏ 🌈
+                      Smooth tracing grooves for little fingers 🎨 Vibrant colors to captivate young minds
+                      🌳 Eco-friendly and made to last. Crafted with love and a commitment to early
+                      education,. It's more than a toy; it's a tool for growth! 🌳💡
+                    </p>
+
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="img-boxs">
+                    <img src="images/products/ABCD 1.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-6 ">
+                  <div class="detail-box">
+                    <h1>
+                      TANGRAM PUZZLE</h1>
+                    <p>
+                      <b>Unleash the Power of Creativity with Our Wooden Tangram Puzzle! 🌈✨</b>
+                      a timeless classic that sparks imagination and sharpens young minds. 🎨 Transform
+                      geometric shapes into endless possibilities!
+                      Develops spatial awareness and problem-solving skills 🌳 Crafted from sustainable,
+                      eco-friendly materials
+                    </p>
+
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="img-boxs">
+                    <img src="images/products/WT.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-6 ">
+                  <div class="detail-box">
+                    <h1>
+                      Giraffe wooden puzzle </h1>
+                    <p>
+                      Let your little ones embark on a wild adventure with this charming and eco-friendly
+                      toy. Handcrafted from sustainable wood, each piece is designed to spark creativity
+                      and problem-solving skills.🌟
+                      Watch as their imagination runs wild while they piece together this adorable giraffe,
+                      discovering the beauty of nature through play.
+                    </p>
+
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="img-boxs">
+                    <img src="images/products/Untitled (1).jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-6 ">
+                  <div class="detail-box">
+                    <h1>
+                      Wooden hammer ball </h1>
+                    <p>
+                      🔨🎨 Dive into a rainbow adventure with our Color Identifying Wooden Hammer Ball! 🌈✨
+                      Crafted with care from non-toxic, eco-friendly wood, our hammer ball toy is not only
+                      a feast for the senses but also a tool for cognitive development. 🌱🔧
+                      With each tap of the hammer, your little ones will discover a new color, sharpening
+                      their observation skills and fostering a love for learning.
+                    </p>
+
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="img-boxs">
+                    <img src="images/products/HAMMER BALL.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box" data-aos="zoom-in">
-            <a href="">
-              <div class="img-box">
-                <img src="./images/products/ABCD 1.jpg" alt="">
-              </div>
-              <div class="detail-box">
-                <a href="">
-                  Toy for kids
-                </a>
-
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box" data-aos="zoom-in">
-            <a href="">
-              <div class="img-box">
-                <img src="./images/products/HAMMER BALL.jpg" alt="">
-              </div>
-              <div class="detail-box">
-                <a href="">
-                  Toy for kids
-                </a>
-
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box" data-aos="zoom-in">
-            <a href="">
-              <div class="img-box">
-                <img src="./images/products/Untitled (1).jpg" alt="">
-              </div>
-              <div class="detail-box">
-                <a href="">
-                  Toy for kids
-                </a>
-
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box" data-aos="zoom-in">
-            <a href="">
-              <div class="img-box">
-                <img src="./images/products/WI.jpg" alt="">
-              </div>
-              <div class="detail-box">
-                <a href="">
-                  Toy for kids
-                </a>
-
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box" data-aos="zoom-in">
-            <a href="">
-              <div class="img-box">
-                <img src="./images/products/WT.jpg" alt="">
-              </div>
-              <div class="detail-box">
-                <a href="">
-                  Toy for kids
-                </a>
-
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box" data-aos="zoom-in">
-            <a href="">
-              <div class="img-box">
-                <img src="./images/products/xylophone 1.jpeg" alt="">
-              </div>
-              <div class="detail-box">
-                <a href="">
-                  Toy for kids
-                </a>
-
-              </div>
-            </a>
-          </div>
-        </div>
-
+        <ol class="carousel-indicators">
+          <li data-target="#customCarousel2" data-slide-to="0" class="active"></li>
+          <li data-target="#customCarousel2" data-slide-to="1"></li>
+          <li data-target="#customCarousel2" data-slide-to="2"></li>
+          <li data-target="#customCarousel2" data-slide-to="3"></li>
+          <li data-target="#customCarousel2" data-slide-to="4"></li>
+          <li data-target="#customCarousel2" data-slide-to="5"></li>
+          <li data-target="#customCarousel2" data-slide-to="6"></li>
+        </ol>
       </div>
-      <div class="btn-box">
+
+      <!-- <div class="btn-box">
         <a href="">
           View All Products
         </a>
-      </div>
+      </div> -->
     </div>
   </section>
 
@@ -688,6 +883,8 @@
   </section>
   <!-- footer section -->
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
   <!-- jQery -->

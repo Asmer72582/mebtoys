@@ -1,5 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@300;400;600;700&display=swap");
 
+
+#more {
+  position: fixed;
+  z-index: 10000;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  padding: 10px;
+  color: white;
+  background-color: #1d3557;
+  bottom: 10px;
+  right: 10px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+#more:hover {
+  cursor: pointer;
+}
+
 * {
   scroll-behavior: smooth;
   text-align: justify;
@@ -10,11 +34,10 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #222221;
-  background-color: #f0e5e5;
+  background-color: #fff;
   overflow-x: hidden;
-  background-image: url("../images/svgs/backgroundGlow.svg");
-  background-attachment: fixed;
-  background-size: contain;
+
+
   /* background-repeat: no-repeat; */
 }
 
@@ -93,7 +116,7 @@ a:focus {
 
 /*header section*/
 .hero_area {
-  background-color: lightcoral;
+  background-color: #1d3557;
   position: relative;
   min-height: 100vh;
   display: -webkit-box;
@@ -130,12 +153,12 @@ a:focus {
 
 .sub_page .hero_area {
   min-height: auto;
-  background-color: lightcoral;
+  background-color: #1d3557;
 }
 
 .header_section {
   width: 100%;
-  background-color: lightcoral;
+  background-color: #1d3557;
   position: sticky;
   top: 0;
   z-index: 10;
@@ -156,7 +179,7 @@ a:focus {
 .navbar-brand span {
   font-weight: bold;
   font-size: 24px;
-  color: #000;
+  color: #fff;
 }
 
 .custom_nav-container {
@@ -169,7 +192,7 @@ a:focus {
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
   padding: 5px 20px;
-  color: #000;
+  color: #fff;
   text-align: center;
   text-transform: uppercase;
   border-radius: 5px;
@@ -190,7 +213,7 @@ a:focus {
 }
 
 .custom_nav-container .nav_search-btn:hover {
-  color: #222221;
+  color: #a8dadc;
 }
 
 .custom_nav-container .navbar-toggler {
@@ -316,11 +339,11 @@ a:focus {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 15px;
-  color: #000;
+  color: #fff;
 }
 
 .slider_section .detail-box p {
-  color: #000;
+  color: #fff;
   font-size: 14px;
 }
 
@@ -470,7 +493,8 @@ a:focus {
   margin: 45px auto;
   padding: 10px;
   border-radius: 15px;
-  color: #000;
+  color: #111;
+  background-color: #fff;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
 }
@@ -550,9 +574,10 @@ a:focus {
 }
 
 .shop_section {
-  background-color: lightcoral;
-  background-image: url("../images/svgs/backgroundGlow-white.svg");
-  background-attachment: fixed;
+  background-color: #1d3557;
+  /* height: 100vh; */
+  /* background-image: url("../images/svgs/backgroundGlow-white.svg"); */
+  /* background-attachment: fixed; */
 }
 
 .shop_section .heading_container {
@@ -560,11 +585,21 @@ a:focus {
   color: #ffffff;
 }
 
+#customCarousel2 {
+  padding: 30px 0px;
+  height: 100%;
+  /* display: none; */
+}
+
 .shop_section .box {
   background-color: #ffffff;
   position: relative;
   padding: 10px;
   margin-top: 25px;
+  text-align: center;
+}
+
+.shop_section .detail-box h1 {
   text-align: center;
 }
 
@@ -581,6 +616,20 @@ a:focus {
   padding: 15px 30px;
   height: 245px;
   background-color: #eeeeee;
+}
+
+.img-boxs {
+
+
+  width: 100%;
+}
+
+
+.shop_section .img-boxs img {
+  width: 100%;
+  height: 300px;
+  object-fit: fill;
+  margin-bottom: 30px;
 }
 
 .shop_section .box .img-box img {
@@ -723,6 +772,7 @@ a:focus {
   color: #000000;
   outline: none;
   bottom: 0px;
+  text-align: center;
   font-size: 24px;
   -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
@@ -984,7 +1034,7 @@ a:focus {
 .footer_section {
 
   position: relative;
-  background-color: #000;
+  background-color: #1d3557;
   text-align: center;
 }
 
@@ -1004,6 +1054,11 @@ a:focus {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+#customCarousel2 .carousel-inner .carousel-item .container .row {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .gallery-images {
