@@ -9,7 +9,7 @@
   border-radius: 50%;
   padding: 10px;
   color: white;
-  background-color: #1d3557;
+  background-color: #14213d;
   bottom: 10px;
   right: 10px;
   border: 1px solid white;
@@ -34,7 +34,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #222221;
-  background-color: #fff;
+  /* background-color: #caf0f8; */
   overflow-x: hidden;
 
 
@@ -116,7 +116,7 @@ a:focus {
 
 /*header section*/
 .hero_area {
-  background-color: #1d3557;
+  background-color: #14213d;
   position: relative;
   min-height: 100vh;
   display: -webkit-box;
@@ -126,8 +126,8 @@ a:focus {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  border-bottom-left-radius: 100%;
-  border-bottom-right-radius: 100%;
+  /* border-bottom-left-radius: 100%; */
+  /* border-bottom-right-radius: 100%; */
   /* border-top-left-radius: 10%; */
 
 }
@@ -153,16 +153,17 @@ a:focus {
 
 .sub_page .hero_area {
   min-height: auto;
-  background-color: #1d3557;
+  background-color: #14213D;
 }
 
 .header_section {
   width: 100%;
-  background-color: #1d3557;
+  background-color: #fff;
   position: sticky;
   top: 0;
   z-index: 10;
   padding: 15px 0;
+  color: #000000;
 }
 
 .header_section .container-fluid {
@@ -179,7 +180,7 @@ a:focus {
 .navbar-brand span {
   font-weight: bold;
   font-size: 24px;
-  color: #fff;
+  color: #000;
 }
 
 .custom_nav-container {
@@ -192,7 +193,7 @@ a:focus {
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
   padding: 5px 20px;
-  color: #fff;
+  color: #000;
   text-align: center;
   text-transform: uppercase;
   border-radius: 5px;
@@ -209,7 +210,7 @@ a:focus {
   height: 35px;
   padding: 0;
   border: none;
-  color: #ffffff;
+  color: #000;
 }
 
 .custom_nav-container .nav_search-btn:hover {
@@ -232,7 +233,7 @@ a:focus {
   display: block;
   width: 35px;
   height: 4px;
-  background-color: #ffffff;
+  background-color: #000;
   margin: 7px 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -248,7 +249,7 @@ a:focus {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #ffffff;
+  background-color: #000;
   top: -10px;
   border-radius: 5px;
   -webkit-transition: all 0.3s;
@@ -307,6 +308,7 @@ a:focus {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
+  justify-content: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -314,7 +316,7 @@ a:focus {
   -ms-flex-align: center;
   align-items: center;
   position: relative;
-  padding: 45px 0 145px 0;
+  /* padding: 45px 0 145px 0; */
 }
 
 .slider_section .row {
@@ -465,6 +467,7 @@ a:focus {
   background-repeat: no-repeat;
   position: relative;
   padding-top: 45px;
+  display: none;
 }
 
 .feature_section .box {
@@ -539,6 +542,12 @@ a:focus {
   text-transform: uppercase;
 }
 
+.about_section {
+
+  /* margin-top: 40px; */
+  background-color: #f2e8cf;
+}
+
 .about_section .row {
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -574,7 +583,7 @@ a:focus {
 }
 
 .shop_section {
-  background-color: #1d3557;
+  background-color: #14213D;
   /* height: 100vh; */
   /* background-image: url("../images/svgs/backgroundGlow-white.svg"); */
   /* background-attachment: fixed; */
@@ -620,15 +629,16 @@ a:focus {
 
 .img-boxs {
 
-
+  border-radius: 50%;
   width: 100%;
 }
 
 
-.shop_section .img-boxs img {
+.img-boxs img {
   width: 100%;
-  height: 300px;
+  height: 400px;
   object-fit: fill;
+  border-radius: 50%;
   margin-bottom: 30px;
 }
 
@@ -681,6 +691,11 @@ a:focus {
 /* client section start */
 .client_section .heading_container {
   margin-bottom: 30px;
+}
+
+.client_section {
+  background-color: #fff;
+
 }
 
 .client_section .box {
@@ -820,14 +835,14 @@ a:focus {
   box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
 }
 
-.contact_section .heading_container {
-  margin-bottom: 30px;
-}
+
+
 
 .contact_section .row {
   -webkit-box-align: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
+  background-color: white;
 }
 
 .contact_section form {
@@ -906,6 +921,10 @@ a:focus {
 
 .info_section .info_col {
   margin-bottom: 30px;
+}
+
+.gallery_section {
+  background-color: #d0f4de;
 }
 
 .info_section .info_contact .contact_link_box {
@@ -1034,7 +1053,7 @@ a:focus {
 .footer_section {
 
   position: relative;
-  background-color: #1d3557;
+  background-color: #14213d;
   text-align: center;
 }
 
