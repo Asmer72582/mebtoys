@@ -11021,14 +11021,19 @@ html:not(.lt-ie10) .not-animated {
     font-family: "Titan One", "Times New Roman", Times, serif;
     font-weight: 400;
     line-height: 1.2;
+
 }
 
 .rd-navbar-brand img {
-    max-height: 100px;
+    max-height: 60px;
 }
 
 .ie-edge .rd-navbar-brand {
     transition: none;
+}
+
+#ui-to-top {
+    display: none;
 }
 
 .rd-navbar-nav {
